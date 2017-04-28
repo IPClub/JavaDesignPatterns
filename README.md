@@ -1,0 +1,1 @@
+"Ipc Java Design Patterns" 
