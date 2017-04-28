@@ -12,7 +12,7 @@ public class User {
 		
 	}
 	
-	public static User getInstance(){
+	public synchronized static User getInstance(){
 		if(user == null){
 			user  = new User();
 		}
